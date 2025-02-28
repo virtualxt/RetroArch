@@ -157,10 +157,11 @@ function preLoadingComplete() {
       startRetroArch();
       return false;
    });
-   $('#btnRun').removeClass('disabled').removeAttr("disabled").click(function() {
-      startRetroArch();
-      return false;
-   });
+   //$('#btnRun').removeClass('disabled').removeAttr("disabled").click(function() {
+   //   startRetroArch();
+   //   return false;
+   //});
+   startRetroArch();
 }
 
 var zipTOC;
@@ -365,8 +366,8 @@ $(function() {
 
 function loadCore(core) {
    // Make the core the selected core in the UI.
-   //var coreTitle = $('#core-selector a[data-core="' + core + '"]').addClass('active').text();
-   //$('#dropdownMenu1').text(coreTitle);
+   var coreTitle = $('#core-selector a[data-core="' + core + '"]').addClass('active').text();
+   $('#dropdownMenu1').text(coreTitle);
    // Load the Core's related JavaScript.
    import("./" + core + "_libretro.js").then(script => {
       script.default(Module).then(mod => {

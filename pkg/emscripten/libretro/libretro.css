@@ -122,6 +122,12 @@ textarea {
 /**
  * VirtualXT stuff
  */
- #core-selector {
- 	display: none;
- }
+#dropdownMenu1 {
+	display: none;
+}
+#btnHelp {
+	display: none;
+}
+#btnRun {
+	display: none;
+}
