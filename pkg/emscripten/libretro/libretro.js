@@ -317,6 +317,10 @@ $(function() {
       $('.showMenu').toggle('slow');
    });
 
+   // Auto hide menubar (VirtualXT)
+   $('nav').slideToggle('slow');
+   $('.showMenu').toggle('slow');
+
    // Attempt to disable some default browser keys.
    var keys = {
       9: "tab",
