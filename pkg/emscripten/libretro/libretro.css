@@ -118,3 +118,10 @@ textarea {
 .navbar {
   box-shadow: none;
 }
+
+/**
+ * VirtualXT stuff
+ */
+ #core-selector {
+ 	display: none;
+ }

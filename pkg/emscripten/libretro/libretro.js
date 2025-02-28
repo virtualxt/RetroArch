@@ -356,7 +356,7 @@ $(function() {
       switchCore(coreChoice);
    });
    // Find which core to load.
-   var core = localStorage.getItem("core", core);
+   var core = 'virtualxt' //localStorage.getItem("core", core);
    if (!core) {
       core = 'gambatte';
    }
