@@ -131,3 +131,6 @@ textarea {
 #btnRun {
 	display: none;
 }
+#canvas_div {
+	height: 100vh;
+}
