@@ -1605,7 +1605,7 @@
 
 /* Automatically enable game focus when running or
  * resuming content */
-#define DEFAULT_INPUT_AUTO_GAME_FOCUS AUTO_GAME_FOCUS_OFF
+#define DEFAULT_INPUT_AUTO_GAME_FOCUS AUTO_GAME_FOCUS_DETECT
 
 /* Show the input descriptors set by the core instead
  * of the default ones. */
